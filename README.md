@@ -12,9 +12,9 @@ This is a note taking web application using the express module in node.js that i
 ![Express Note Taker Notes Page](https://github.com/Ysdra/Express_Note_Taker/blob/main/Note%20Taker%20Notes%20Page.PNG)
 
 ## App Description & User's Guide:
-If using this app on the Heroku web link: No extra actions are needed; you can immediately start taking notes!
+# If you are using this app on the Heroku web link: No extra actions are needed; you can immediately start taking notes!
 
-If using this app locally on your own machine:
+# If you are using this app locally on your own machine:
 1. Install node.js locally to your machine
 2. Open a git bash terminal and enter the command "npm install" in order to install the necessary node dependencies 
 3. Type into the same terminal "node server.js" to run the server.js on localhost:3000
