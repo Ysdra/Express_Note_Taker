@@ -3,7 +3,7 @@
 ## App Description:
 This is a note taking web application using the express module in node.js and is deployed on a Heroku server.  
 
-## Live Application Link: 
+## Live Application Link: https://secret-wave-31672.herokuapp.com/ 
 
 ## Live Application Landing Page Image: 
 ![Express Note Taker]
