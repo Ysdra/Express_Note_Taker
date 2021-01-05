@@ -1,24 +1,24 @@
 {
-  "name": "note-taker",
+  "name": "express_note_taker",
   "version": "1.0.0",
-  "description": "This is an Express application based on a Heroku server for taking notes.",
+  "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
-  },
-  "author": "Ysdra",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ysdra/Express_Note_Taker.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ysdra/Express_Note_Taker/issues"
   },
-  "homepage": "https://github.com/Ysdra/Express_Note_Taker#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/Ysdra/Express_Note_Taker#readme"
 }
