@@ -9,7 +9,7 @@ This is a note taking web application using the express module in node.js that i
 ![Express Note Taker](https://github.com/Ysdra/Express_Note_Taker/blob/main/Note%20Taker%20Landing%20Page.PNG)
 
 ## Live Application Notes Page Image: 
-![Express Note Taker Notes Page](https://github.com/Ysdra/Express_Note_Taker/blob/main/Note%20Taker%20Landing%20Page.PNG)
+![Express Note Taker Notes Page](https://github.com/Ysdra/Express_Note_Taker/blob/main/Note%20Taker%20Notes%20Page.PNG)
 
 ## App Description & User's Guide:
 #If using this app on the Heroku web link: No extra actions are needed; you can immediately start taking notes!
