@@ -1,7 +1,7 @@
 const path = require("path");
 const fs = require("fs");
 const notesArray = require("../db/db.json");
-const uuidv4 = require('uuid/v4');
+const uuidv4 = require("uuid");
 
 module.exports = app => {
     app.get("/api/notes", (req, res) => {
