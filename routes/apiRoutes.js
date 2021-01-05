@@ -1,7 +1,7 @@
 const path = require("path");
 const fs = require("fs");
 const notesArray = require("../db/db.json");
-const uuidv4 = require("uuid");
+const { v4: uuidv4 } = require("uuid");
 
 module.exports = app => {
     app.get("/api/notes", (req, res) => {
@@ -9,7 +9,7 @@ module.exports = app => {
     })
 
     app.post("/api/notes", (req, res) => {
-        const newNote = req.body;
+        const newNote = {...req.body, id: uuidv4()};
         const file = path.join(__dirname, "../db/db.json");
 
         newNote.id = uuidv4();
