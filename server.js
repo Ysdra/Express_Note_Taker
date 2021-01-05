@@ -6,7 +6,7 @@ var PORT = process.env.PORT || 3000;
 // Initial Express App set-up 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+app.use(express.static("./public"));
 
 // Routes 
 require("./routes/API_Routes")(app);
